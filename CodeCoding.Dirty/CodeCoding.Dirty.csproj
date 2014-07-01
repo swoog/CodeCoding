@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B15003AD-818D-4FC4-8ACF-0C67374099DC}</ProjectGuid>
+    <ProjectGuid>{C5030D34-B52A-4CD0-9EF0-99E3BBCD6ED7}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>CodeCoding</RootNamespace>
-    <AssemblyName>CodeCoding</AssemblyName>
+    <AssemblyName>CodeCoding.Dirty</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -43,12 +43,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Emperor.cs" />
-    <Compile Include="IDarkSideForce.cs" />
+    <Compile Include="IDSForce.cs" />
     <Compile Include="IForce.cs" />
     <Compile Include="Jedi.cs" />
-    <Compile Include="LightSaber.cs" />
+    <Compile Include="Saber.cs" />
     <Compile Include="Lord.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Program.cs">
+      <SubType>
+      </SubType>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

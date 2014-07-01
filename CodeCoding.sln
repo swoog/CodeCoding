@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeCoding", "CodeCoding\CodeCoding.csproj", "{B15003AD-818D-4FC4-8ACF-0C67374099DC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeCoding.Dirty", "CodeCoding.Dirty\CodeCoding.Dirty.csproj", "{C5030D34-B52A-4CD0-9EF0-99E3BBCD6ED7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{B15003AD-818D-4FC4-8ACF-0C67374099DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B15003AD-818D-4FC4-8ACF-0C67374099DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B15003AD-818D-4FC4-8ACF-0C67374099DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5030D34-B52A-4CD0-9EF0-99E3BBCD6ED7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5030D34-B52A-4CD0-9EF0-99E3BBCD6ED7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5030D34-B52A-4CD0-9EF0-99E3BBCD6ED7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5030D34-B52A-4CD0-9EF0-99E3BBCD6ED7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
